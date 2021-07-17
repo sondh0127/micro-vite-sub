@@ -1,0 +1,22 @@
+{
+	"version": "0.0.0",
+	"scripts": {
+		"start": "http-server ./dist -p 7101 --cors",
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"vite-plugin-qiankun": "^1.0.7",
+		"vue": "^3.0.5"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.2.5",
+		"@vue/compiler-sfc": "^3.0.5",
+		"cross-env": "^7.0.3",
+		"typescript": "^4.3.2",
+		"vite": "^2.4.2",
+		"http-server": "^0.12.3",
+		"vue-tsc": "^0.0.24"
+	}
+}
